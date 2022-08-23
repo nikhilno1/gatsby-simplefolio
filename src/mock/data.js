@@ -11,24 +11,22 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Nikhil Utane',
-  subtitle: 'I\'m a seasoned Technology Leader experienced in Data Analytics, Cloud, DevOps and Machine Learning with a strong systems background',
+  subtitle: 'I\'m a Technology Leader experienced in Data Analytics, Cloud, DevOps and Machine Learning with a strong systems background',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile3.jpg',
-  paragraphOne: "I have 20+ years of diverse experience in building \n" +
-  "high-performance, carrier-grade products in Networking and Telecom \n" +
-  "domains. I have a strong technology background with the ability to lead and \n" +
-  "manage large teams. I have executed complete programs and built teams from \n" +
-  "scratch. I have in-depth knowledge of software development processes & best \n" +
-  "practices, incl. Agile. I possess a solid foundation in core system areas while \n" +
-  "being proficient in Big Data Analytics, Cloud & Cloud-Native architecture, \n" +
-  "DevOps, Machine Learning etc.",
-  paragraphTwo: "I am currently leading the Software Services group within CommScope for the OneCell 5G product \n" +
-  "where I own Analytics, DevOps, Cloud, & Automation charter.",
-  paragraphThree: "I am a technophile at heart - adept at driving technological innovations and a terrific problem-solver.",
+  paragraphOne: "I have 22 years of diverse experience in building high-performance, carrier-grade products in Networking and Telecom domains.\n" +
+  "I have a strong technology background with the ability to lead and manage large teams.\n" +
+  "I have built teams from scratch and executed complete programs.\n" +
+  "I have in-depth knowledge of software development processes & best practices, incl. Agile.\n" +
+  "I possess a solid foundation in core system areas while being proficient in Big Data Analytics, Cloud & Cloud-Native architecture, DevOps, Machine Learning etc.\n" +  
+  "",
+  paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with some great problem-solving skills",
+  paragraphThree: "I am currently leading the Software Services group within CommScope \n" +
+  "developing innovative products & solutions in Analytics, DevOps, Cloud & Automation areas for the OneCell 5G product.",
   resume: 'https://drive.google.com/file/d/1H0a2bZUeV9DLl8iTVirjMt_St74EXTVo/view?usp=sharing', // if no resume, the button will not show up
 };
 
