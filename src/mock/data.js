@@ -41,7 +41,7 @@ export const projectsData = [
     info2: 'I envisioned and built a feature-rich, cloud-native OM/KPI analytics solution named Chronos with minimal resources. \n' +
     'The solution uses InfluxDB as a time-series database and the entire pipeline runs in AWS. \n' + 
     'It is highly scalable & supports features such as interactive dashboards, \n' +
-    'reporting & alerting with more advanced features such as Anomaly Detection and AI/ML based troubleshooting in the pipeline, \n' +
+    'reporting & alerting with more advanced features such as Anomaly Detection and AI/ML based troubleshooting in the pipeline. \n' +
     'Chronos is running in production supporting both 4G and 5G deployments and has significantly reduced the day-to-day monitoring cost and effort.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
@@ -60,7 +60,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'themis-gnb.jpg',
+    img: 'themis-gnb.png',
     title: 'OneCell Analytics - Themis (2022)',
     info: 'OneCell system is a high-performance and low-latency system. Additionally, the deployment happens using Kubernetes which is fairly complex to manage.',
     info2: 'I developed a centralized observability solution named Themis to ease the real-time monitoring of all OneCell deployments.\n' +
@@ -71,7 +71,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'themis-lab.jpg',
+    img: 'themis-lab.png',
     title: 'Themis-Lab (2022)',
     info: 'Themis-Lab is a standalone version of Themis that is being used to manage all the lab inventory.',
     info2: 'It combines the static server data with the real-time information to get accurate view on server utilization. \n' +
