@@ -24,7 +24,7 @@ export const aboutData = {
   "I have in-depth knowledge of software development processes & best practices, incl. Agile.\n" +
   "I possess a solid foundation in core system areas while being proficient in Big Data Analytics, Cloud & Cloud-Native architecture, DevOps, Machine Learning etc.\n" +  
   "",
-  paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with great problem-solving skills",
+  paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with exceptional problem-solving skills",
   paragraphThree: "I am currently leading the Software Services group at CommScope \n" +
   "developing innovative products & solutions in Analytics, DevOps, Cloud & Automation areas for the OneCell 5G product.",
   resume: 'https://drive.google.com/file/d/1H0a2bZUeV9DLl8iTVirjMt_St74EXTVo/view?usp=sharing', // if no resume, the button will not show up
