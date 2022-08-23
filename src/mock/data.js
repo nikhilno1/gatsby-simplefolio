@@ -83,10 +83,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'cicd.png',
     title: 'DevOps Activities for OneCell 5G & DAS (2022)',
-    info: 'I led the DevOps effort to build a comprehensive & robust CI/CD pipeline for OneCell 5G & DAS product lines.',
-    info2: 'I also led multiple other DevOps initiatives & built new tools to reduce inefficiencies and improve productivity, \n' + 
-    '(for e.g. reducing the build time by 80%, using Tilt for developer environments & Rancher for Kubernetes cluster management).\n' +
-    'In addition, I also brought in higher levels of automation using tools such as Ansible and Terraform to automate various manual & error-prone activities; \n' +
+    info: 'I led the DevOps effort to build a comprehensive & robust CI/CD pipeline for OneCell 5G & DAS product lines. \n' +
+    'I also led multiple other DevOps initiatives & built new tools to reduce inefficiencies and improve productivity, \n' + 
+    '(for e.g. reducing the build time by 80%, using Tilt for developer environments & Rancher for Kubernetes cluster management).\n',
+    info2: 'In addition, I also brought in higher levels of automation using tools such as Ansible and Terraform to automate various manual & error-prone activities; \n' +
     'from setup bring up, to install/upgrade, to device configuration, to release engineering practices.',
     url: '',
     repo: '', // if no repo, the button will not show up
