@@ -24,8 +24,8 @@ export const aboutData = {
   "I have in-depth knowledge of software development processes & best practices, incl. Agile.\n" +
   "I possess a solid foundation in core system areas while being proficient in Big Data Analytics, Cloud & Cloud-Native architecture, DevOps, Machine Learning etc.\n" +  
   "",
-  paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with some great problem-solving skills",
-  paragraphThree: "I am currently leading the Software Services group within CommScope \n" +
+  paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with great problem-solving skills",
+  paragraphThree: "I am currently leading the Software Services group at CommScope \n" +
   "developing innovative products & solutions in Analytics, DevOps, Cloud & Automation areas for the OneCell 5G product.",
   resume: 'https://drive.google.com/file/d/1H0a2bZUeV9DLl8iTVirjMt_St74EXTVo/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -34,56 +34,70 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'grafana-1.jpg',
-    title: 'OneCell Analytics - Chronos (2021)',
+    img: 'chronos.png',
+    title: 'OneCell Analytics - Chronos (2022)',
     info: 'Operational Measurements (OM) and Key Performance Indicators (KPI) data is important for monitoring OneCell deployments in the field. \n' +
     'Historically, this was done by a legacy tool that had significant limitations and was expensive to maintain. ',
     info2: 'I envisioned and built a feature-rich, cloud-native OM/KPI analytics solution named Chronos with minimal resources. \n' +
-    'Chronos is running in production supporting both 4G and 5G deployments and has significantly reduced the day-to-day monitoring cost and effort. \n' +
-    'More advanced features such as anomaly detection using machine learning algorithms for closed-loop automation are in pipeline.',
+    'The solution uses InfluxDB as a time-series database and the entire pipeline runs in AWS. \n' + 
+    'It is highly scalable & supports features such as interactive dashboards, reporting & alerting with more advanced features such as Anomaly Detection and AI/ML based troubleshooting in the pipeline',
+    'Chronos is running in production supporting both 4G and 5G deployments and has significantly reduced the day-to-day monitoring cost and effort.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'kibana.png',
-    title: 'OneCell Analytics - Atlas (2021)',
+    img: 'atlas.png',
+    title: 'OneCell Analytics - Atlas (2022)',
     info: 'OneCell devices generate a huge amount of text-based logs. A single device can generate few GBs worth of logs in a day. \n' +
     'Earlier, there was no system available to store and query these logs efficiently.',
     info2: 'I developed a highly-available, centralized log analytics solution named Atlas, powered by Elasticsearch. \n' +
     'With its pre-created dashboards and queries, Atlas has tremendously simplified looking up logs thereby greatly boosting developer productivity.\n' +
-    'Other features to automate the entire troubleshooting process are in progress.',
+    'The solution includes a robust data pipeline using Kafka & Logstash running in AWS EKS along with a homegrown framework to automate any complex stateful analysis',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'grafana-2.jpg',
-    title: 'OneCell Analytics - Themis (2021)',
-    info: 'OneCell system is a high-performance and low-latency system. Additionally, the deployment happens using Kubernetes which is fairly complex to manage.\
-    ',
-    info2: 'I developed a centralized monitoring solution named Themis to ease the real-time monitoring of all OneCell deployments.\n' +
+    img: 'themis-gnb.jpg',
+    title: 'OneCell Analytics - Themis (2022)',
+    info: 'OneCell system is a high-performance and low-latency system. Additionally, the deployment happens using Kubernetes which is fairly complex to manage.',
+    info2: 'I developed a centralized observability solution named Themis to ease the real-time monitoring of all OneCell deployments.\n' +
     'The solution uses Thanos, Prometheus & Grafana to provide multi-cluster monitoring along with alerting capabilities.\n' +
-    'Themis supports various types of system metrics to provide a single pane of glass monitoring.',
+    'Themis supports various types of system & kubernetes metrics and also integrates with Chronos and Atlas above to provide single pane of glass observability.',
+    url: 'TBD',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'themis-lab.jpg',
+    title: 'Themis-Lab (2022)',
+    info: 'Themis-Lab is a standalone version of Themis that is being used to manage all the lab inventory.',
+    info2: 'It combines the static server data with the real-time information to get accurate view on server utilization. \n' +
+    'This product has saved hundreds of thousands dollars by finding unused and under-utilized servers.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'cicd.png',
-    title: 'CI/CD Pipeline for OneCell (2021)',
-    info: 'I led the DevOps effort to build a fully functional Continuous Integration pipeline for OneCell 5G program using Jenkins, Bitbucket and JFrog Artifactory.',
-    info2: 'In addition, I also brought in more automation & other build system improvements to drastically reduce build times thereby improving productivity.',
+    title: 'DevOps Activities for OneCell 5G & DAS (2022)',
+    info: 'I led the DevOps effort to build a comprehensive & robust CI/CD pipeline for OneCell 5G & DAS product lines.',
+    info2: 'I also led multiple other DevOps initiatives & built new tools to reduce inefficiencies and improve productivity, \n' + 
+    '(for e.g. reducing the build time by 80%, using Tilt for developer environments & Rancher for Kubernetes cluster management).\n' +
+    'In addition, I also brought in higher levels of automation using tools such as Ansible and Terraform to automate various manual & error-prone activities; \n' +
+    'from setup bring up, to install/upgrade, to device configuration, to release engineering practices.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'cloud.jpg',
-    title: 'Cloud & Open-Source Technology Adoption (2021)',
-    info: 'I have played a key role in driving the adoption of public cloud (AWS/Azure) & other open-source, cloud-native technologies within the OneCell team in CommScope. \n' +
+    title: 'Cloud & Open-Source Technology Adoption (2022)',
+    info: 'I have played a key role in driving & supporting the adoption of public cloud (AWS + Azure) along with other open-source, cloud-native technologies for the OneCell 5G program. \n' +
     'This has allowed us to reduce hardware dependencies, increase agility & productivity, while saving on both cost and effort.',
-    info2: 'I am also leading the Cloud-gNB project to run our 5G gNB solution in Azure cloud.',
+    info2: 'I am also leading the Cloud-gNB project to run our 5G gNB solution in Azure cloud VM. \n' + 
+    'This off-loads all functional testing to low-cost cloud VMs reducing the need for expensive physical servers',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -142,7 +156,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'While I am enjoying my current work, I am on the lookout for a role where the organization’s & my own interests are better aligned. \n' +
   'Particularly, I am seeking leadership roles that require a mix of both technical and management skills, \n' +
-  '(which is my USP), to solve innovative and challenging problems at scale. \n' +
+  'to solve innovative and challenging problems at scale. \n' +
   'Have something for me?',
   btn: '',
   email: 'nikhil.utane@gmail.com',
