@@ -40,7 +40,8 @@ export const projectsData = [
     'Historically, this was done by a legacy tool that had significant limitations and was expensive to maintain. ',
     info2: 'I envisioned and built a feature-rich, cloud-native OM/KPI analytics solution named Chronos with minimal resources. \n' +
     'The solution uses InfluxDB as a time-series database and the entire pipeline runs in AWS. \n' + 
-    'It is highly scalable & supports features such as interactive dashboards, reporting & alerting with more advanced features such as Anomaly Detection and AI/ML based troubleshooting in the pipeline',
+    'It is highly scalable & supports features such as interactive dashboards, \n' +
+    'reporting & alerting with more advanced features such as Anomaly Detection and AI/ML based troubleshooting in the pipeline\n', +
     'Chronos is running in production supporting both 4G and 5G deployments and has significantly reduced the day-to-day monitoring cost and effort.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
