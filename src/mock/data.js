@@ -42,7 +42,8 @@ export const projectsData = [
     'The solution uses InfluxDB as a time-series database and the entire pipeline runs in AWS. \n' + 
     'It is highly scalable & supports features such as interactive dashboards, \n' +
     'reporting & alerting with more advanced features such as Anomaly Detection and AI/ML based troubleshooting in the pipeline. \n' +
-    'Chronos is running in production supporting both 4G and 5G deployments and has significantly reduced the day-to-day monitoring cost and effort.',
+    'Chronos is running in production supporting both 4G and 5G deployments and has significantly reduced the day-to-day monitoring cost and effort. \n' +
+    'The direct cost-savings amount to about $500K annually along with other hard-to-measure gains such as improved productivity, customer satisfaction & new revenue opportunities.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
@@ -75,7 +76,7 @@ export const projectsData = [
     title: 'Themis-Lab (2022)',
     info: 'Themis-Lab is a standalone version of Themis that is being used to manage all the lab inventory.',
     info2: 'It combines the static server data with the real-time information to get accurate view on server utilization. \n' +
-    'This product has saved hundreds of thousands dollars by finding unused and under-utilized servers.',
+    'This product saved $250K dollars immediately upon launch and continues to save more everyday by finding unused and under-utilized servers.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
