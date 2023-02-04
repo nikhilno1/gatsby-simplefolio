@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile3.jpg',
-  paragraphOne: "I have 22 years of diverse experience in building high-performance, carrier-grade products in Networking and Telecom domains.\n" +
+  paragraphOne: "I have 22+ years of diverse experience in building high-performance, carrier-grade products in Networking and Telecom domains.\n" +
   "I have a strong technology background with the ability to lead and manage large teams.\n" +
   "I have built teams from scratch and executed complete programs.\n" +
   "I have in-depth knowledge of software development processes & best practices, incl. Agile.\n" +
@@ -40,8 +40,8 @@ export const projectsData = [
     'Historically, this was done by a legacy tool that had significant limitations and was expensive to maintain. ',
     info2: 'I envisioned and built a feature-rich, cloud-native OM/KPI analytics solution named Chronos with minimal resources. \n' +
     'The solution uses InfluxDB as a time-series database and the entire pipeline runs in AWS. \n' + 
-    'It is highly scalable & supports features such as interactive dashboards, \n' +
-    'reporting & alerting with more advanced features such as Anomaly Detection and AI/ML based troubleshooting in the pipeline. \n' +
+    'It is highly scalable & offers features such as interactive dashboards, \n' +
+    'reporting, real-time alerting, anomaly detection with advanced features such as AI/ML based troubleshooting in the pipeline. \n' +
     'Chronos is running in production supporting both 4G and 5G deployments and has significantly reduced the day-to-day monitoring cost and effort. \n' +
     'The direct cost-savings amount to about $500K annually along with other hard-to-measure gains such as improved productivity, customer satisfaction & new revenue opportunities.',
     url: 'TBD',
@@ -64,9 +64,9 @@ export const projectsData = [
     img: 'themis-gnb.png',
     title: 'OneCell Analytics - Themis (2022)',
     info: 'OneCell system is a high-performance and low-latency system. Additionally, the deployment happens using Kubernetes which is fairly complex to manage.',
-    info2: 'I developed a centralized observability solution named Themis to ease the real-time monitoring of all OneCell deployments.\n' +
-    'The solution uses Thanos, Prometheus & Grafana to provide multi-cluster monitoring along with alerting capabilities.\n' +
-    'Themis supports various types of system & kubernetes metrics and also integrates with Chronos and Atlas above to provide single pane of glass observability.',
+    info2: 'I developed a single pane of glass observability solution named Themis to ease the real-time monitoring & recovery of all OneCell deployments.\n' +
+    'The solution uses Thanos, Prometheus & Grafana to provide multi-cluster monitoring along with real-time alerting capabilities.\n' +
+    'Themis supports various types of application, system & kubernetes metrics and also integrates with Chronos and Atlas above to provide one-stop monitoring and recovery capabilities.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
@@ -74,8 +74,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'themis-lab.png',
     title: 'Themis-Lab (2022)',
-    info: 'Themis-Lab is a standalone version of Themis that is being used to manage all the lab inventory.',
-    info2: 'It combines the static server data with the real-time information to get accurate view on server utilization. \n' +
+    info: 'Themis-Lab is a standalone version of Themis that is being used to manage & track the entire lab inventory.',
+    info2: 'It combines the static server data with the real-time information to get accurate view of server utilization. \n' +
     'This product saved $250K dollars immediately upon launch and continues to save more everyday by finding unused and under-utilized servers.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
@@ -87,8 +87,8 @@ export const projectsData = [
     info: 'I led the DevOps effort to build a comprehensive & robust CI/CD pipeline for OneCell 5G & DAS product lines. \n' +
     'I also led multiple other DevOps initiatives & built new tools to reduce inefficiencies and improve productivity, \n' + 
     '(for e.g. reducing the build time by 80%, using Tilt for developer environments & Rancher for Kubernetes cluster management).\n',
-    info2: 'In addition, I also brought in higher levels of automation using tools such as Ansible and Terraform to automate various manual & error-prone activities; \n' +
-    'from setup bring up, to install/upgrade, to device configuration, to release engineering practices.',
+    info2: 'In addition, I also brought in higher levels of automation using tools such as Ansible, Terraform, Robot framework to automate various manual & error-prone activities; \n' +
+    'These included setup bring up, install/upgrade, device configuration, release engineering practices, test automation etc',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -97,7 +97,7 @@ export const projectsData = [
     img: 'cloud.jpg',
     title: 'Cloud & Open-Source Technology Adoption (2022)',
     info: 'I have played a key role in driving & supporting the adoption of public cloud (AWS + Azure) along with other open-source, cloud-native technologies for the OneCell 5G program. \n' +
-    'This has allowed us to reduce hardware dependencies, increase agility & productivity, while saving on both cost and effort.',
+    'This has allowed us to reduce hardware dependencies, deliver high-quality software, increase agility & productivity, while saving on both cost and effort.',
     info2: 'I am also leading the Cloud-gNB project to run our 5G gNB solution in Azure cloud VM. \n' + 
     'This off-loads all functional testing to low-cost cloud VMs reducing the need for expensive physical servers',
     url: '',
