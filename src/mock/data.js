@@ -37,12 +37,7 @@ export const projectsData = [
     title: 'OneCell Analytics - Chronos (2022)',
     info: 'Operational Measurements (OM) and Key Performance Indicators (KPI) data is important for monitoring OneCell deployments in the field. \n' +
     'Historically, this was done by a legacy tool that had significant limitations and was expensive to maintain. ',
-    info2: 'I envisioned and built a feature-rich, cloud-native OM/KPI analytics solution named Chronos with minimal resources. \n' +
-    'The solution uses InfluxDB as a time-series database and the entire pipeline runs in AWS. \n' + 
-    'It is highly scalable & offers features such as interactive dashboards, \n' +
-    'reporting, real-time alerting, anomaly detection with advanced features such as AI/ML based troubleshooting in the pipeline. \n' +
-    'Chronos is running in production supporting both 4G and 5G deployments and has significantly reduced the day-to-day monitoring cost and effort. \n' +
-    'The direct cost-savings amount to about $500K annually along with other hard-to-measure gains such as improved productivity, customer satisfaction & new revenue opportunities.',
+    info2: 'Despite limited resources, I envisioned and developed a cloud-native analytics solution called Chronos, designed to provide comprehensive Operational Measurements (OM) and Key Performance Indicators (KPI) data for OneCell deployments. Chronos uses InfluxDB as a time-series database and is entirely hosted on AWS, offering interactive dashboards, reporting, real-time alerting, and advanced features like AI/ML-based troubleshooting and anomaly detection. Since its implementation, Chronos has effectively reduced the day-to-day monitoring cost and effort while delivering significant direct cost-savings of approximately $500K annually, in addition to boosting productivity, improving customer satisfaction, and unlocking new revenue opportunities. It is currently running in production, supporting both 4G and 5G deployments.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
@@ -52,9 +47,7 @@ export const projectsData = [
     title: 'OneCell Analytics - Atlas (2022)',
     info: 'OneCell devices generate a huge amount of text-based logs. A single device can generate few GBs worth of logs in a day. \n' +
     'Earlier, there was no system available to store and query these logs efficiently.',
-    info2: 'I developed a highly-available, centralized log analytics solution named Atlas, powered by Elasticsearch. \n' +
-    'With its pre-created dashboards and queries, Atlas has tremendously simplified looking up logs thereby greatly boosting developer productivity.\n' +
-    'The solution includes a robust data pipeline using Kafka & Logstash running in AWS EKS along with a homegrown framework to automate any complex stateful analysis',
+    info2: 'Atlas is a centralized log analytics solution I created, powered by Elasticsearch, that provides high availability for log data. With pre-built dashboards and queries, Atlas has significantly increased developer productivity by streamlining the process of searching logs. The solution utilizes a robust data pipeline that leverages Kafka and Logstash, running on AWS EKS. Additionally, I developed a homegrown framework that automates complex stateful analysis. Together, these features enable efficient log data processing and analysis, reducing the burden of manual analysis and allowing for faster issue resolution.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
@@ -62,10 +55,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'themis-gnb.png',
     title: 'OneCell Analytics - Themis (2022)',
-    info: 'OneCell system is a high-performance and low-latency system. Additionally, the deployment happens using Kubernetes which is fairly complex to manage.',
-    info2: 'I developed a single pane of glass observability solution named Themis to ease the real-time monitoring & recovery of all OneCell deployments.\n' +
-    'The solution uses Thanos, Prometheus & Grafana to provide multi-cluster monitoring along with real-time alerting capabilities.\n' +
-    'Themis supports various types of application, system & kubernetes metrics and also integrates with Chronos and Atlas above to provide one-stop monitoring and recovery capabilities.',
+    info: 'The OneCell system is designed for high performance and low latency. However, deploying and managing the system can be complex due to its use of Kubernetes, which requires a certain level of expertise to manage effectively.',
+    info2: 'To simplify real-time monitoring and recovery of all OneCell deployments, I created Themis, a single pane of glass observability solution. Themis is built using open-source components, such as, Thanos, Prometheus, and Grafana, offering multi-cluster monitoring and real-time alerting capabilities. With Themis, users can access a wide range of application, system, and Kubernetes metrics, and the solution also integrates with Chronos and Atlas to provide a one-stop-shop for monitoring and recovery needs. ',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
@@ -73,9 +64,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'themis-lab.png',
     title: 'Themis-Lab (2022)',
-    info: 'Themis-Lab is a standalone version of Themis that is being used to manage & track the entire lab inventory.',
-    info2: 'It combines the static server data with the real-time information to get accurate view of server utilization. \n' +
-    'This product saved $250K dollars immediately upon launch and continues to save more everyday by finding unused and under-utilized servers.',
+    info: 'Themis-Lab is a stand-alone version of Themis, which effectively manages and tracks the complete lab inventory while offering real-time utilization visibility.',
+    info2: 'It is a highly customizable solution that can be tailored to meet the specific needs. It combines the static server data with the real-time information to get accurate view of server utilization. \n' +
+    'This product has saved over $300K (and continues to do so) by identifying under-utilized or unused servers.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
