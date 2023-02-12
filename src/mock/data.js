@@ -18,14 +18,14 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile3.jpg',
-  paragraphOne: "I bring 22+ years of diverse experience in building high-performance, carrier-grade products in Networking and Telecom domains\n" +
+  paragraphOne: "I bring 22+ years of diverse experience in building high-performance, carrier-grade products in Networking and Telecom domains.\n" +
   "I possess a solid foundation in core system areas while being proficient in new-age technologies such as Data Engineering, Big Data Analytics, Cloud & Cloud-Native architecture, DevOps, Machine Learning etc.\n" +  
   "I have a track record of successfully building and leading top-performing teams from the ground up, leveraging my extensive technical expertise.\n" +  
   "I have thorough understanding of software development processes and best-practices, including Agile methodologies\n" +
   "",
-  paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with exceptional problem-solving skills",
+  paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with exceptional problem-solving skills.",
   paragraphThree: "I am currently leading the Software Services group at CommScope \n" +
-  "spearheading the development of innovative products and solutions in Analytics, DevOps, Cloud, and Automation areas for OneCell 5G product",
+  "spearheading the development of innovative products and solutions in Analytics, DevOps, Cloud, and Automation areas for OneCell 5G product.",
   resume: 'https://drive.google.com/file/d/1H0a2bZUeV9DLl8iTVirjMt_St74EXTVo/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -89,7 +89,7 @@ export const projectsData = [
     info: 'I have played a key role in driving & supporting the adoption of public cloud (AWS + Azure) along with other open-source, cloud-native technologies for the OneCell 5G program. \n' +
     'This has allowed us to reduce hardware dependencies, deliver high-quality software, increase agility & productivity, while saving on both cost and effort.',
     info2: 'I am also leading the Cloud-gNB project to run our 5G gNB solution in Azure cloud VM. \n' + 
-    'This off-loads all functional testing to low-cost cloud VMs reducing the need for expensive physical servers',
+    'This off-loads all functional testing to low-cost cloud VMs reducing the need for expensive physical servers.',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -120,7 +120,7 @@ export const projectsData = [
     title: 'ML Project 1 - Tweet Generator App (2020)',
     info: 'This was an attempt to highlight the growing polarization on twitter between left-leaning and right-leaning handles. \n' +
     'I scraped twitter data from well-known LW & RW handles and trained a GPT-2 model to generate random tweets from a prompt. The results were remarkable.',
-    info2: 'The model was trained on Google Colab and deployed on AWS',
+    info2: 'The model was trained on Google Colab and deployed on AWS.',
     url: 'https://towardsdatascience.com/complete-guide-to-build-and-deploy-a-tweet-generator-app-into-production-5006729e583c',
     repo: 'https://github.com/nikhilno1/bot-baby', // if no repo, the button will not show up
   },
@@ -129,7 +129,7 @@ export const projectsData = [
     img: 'ml-2.png',
     title: 'ML Project 2 - BERT vs ULMFiT Sentiment Classifier (2019)',
     info: 'This is a sentiment analysis app that compares the two popular architectures of that time, BERT and ULMFiT.',
-    info2: 'The app is deployed on Google App Engine with flask as back-end',
+    info2: 'The app is deployed on Google App Engine with flask as back-end.',
     url: 'https://towardsdatascience.com/battle-of-the-heavyweights-bert-vs-ulmfit-faceoff-91a582a7c42b',
     repo: 'https://github.com/nikhilno1/nlp_projects/tree/master/deployment/imdb-google-app-engine', // if no repo, the button will not show up
   },
