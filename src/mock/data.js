@@ -47,7 +47,7 @@ export const projectsData = [
     title: 'OneCell Analytics - Atlas (2022)',
     info: 'OneCell devices generate a huge amount of text-based logs. A single device can generate few GBs worth of logs in a day. \n' +
     'Earlier, there was no system available to store and query these logs efficiently.',
-    info2: 'Atlas is a centralized log analytics solution I created, powered by Elasticsearch, that provides high availability for log data. With pre-built dashboards and queries, Atlas has significantly increased developer productivity by streamlining the process of searching logs. The solution utilizes a robust data pipeline that leverages Kafka and Logstash, running on AWS EKS. Additionally, I developed a homegrown framework that automates complex stateful analysis. Together, these features enable efficient log data processing and analysis, reducing the burden of manual analysis and allowing for faster issue resolution.',
+    info2: 'Atlas is a centralized log analytics solution that is powered by Elasticsearch. With pre-built dashboards and queries, Atlas has significantly increased developer productivity by streamlining the process of searching logs. The solution utilizes a robust data pipeline that leverages Kafka and Logstash, running on AWS EKS. Additionally, it also includes a homegrown framework that automates complex stateful analysis. Together, these features enable efficient log data processing and analysis, reducing the burden of manual analysis and allowing for faster issue resolution.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
@@ -56,7 +56,7 @@ export const projectsData = [
     img: 'themis-gnb.png',
     title: 'OneCell Analytics - Themis (2022)',
     info: 'The OneCell system is designed for high performance and low latency. However, deploying and managing the system can be complex due to its use of Kubernetes, which requires a certain level of expertise to manage effectively.',
-    info2: 'To simplify real-time monitoring and recovery of all OneCell deployments, I created Themis, a single pane of glass observability solution. Themis is built using open-source components, such as, Thanos, Prometheus, and Grafana, offering multi-cluster monitoring and real-time alerting capabilities. With Themis, users can access a wide range of application, system, and Kubernetes metrics, and the solution also integrates with Chronos and Atlas to provide a one-stop-shop for monitoring and recovery needs. ',
+    info2: 'To simplify real-time monitoring of OneCell deployments, I created Themis, a single pane of glass observability solution. Themis is built using open-source components, such as, Thanos, Prometheus, and Grafana, offering multi-cluster monitoring and real-time alerting capabilities. With Themis, users can access a wide range of application, system, and Kubernetes metrics, and the solution also integrates with Chronos and Atlas to provide a one-stop-shop for monitoring and recovery needs. ',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
   },
