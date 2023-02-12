@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Portfolio - Nikhil Utane',
   name: 'Nikhil Utane',
-  subtitle: 'I\'m a Technology Leader experienced in Data Analytics, Cloud, DevOps and Machine Learning with a strong systems background',
+  subtitle: 'I\'m a seasoned Technology Leader with expertise in Data Analytics, Cloud, DevOps and Machine Learning, coupled with a strong systems background',
   cta: '',
 };
 
