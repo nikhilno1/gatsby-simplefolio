@@ -18,15 +18,14 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile3.jpg',
-  paragraphOne: "I have 22+ years of diverse experience in building high-performance, carrier-grade products in Networking and Telecom domains.\n" +
-  "I have a strong technology background with the ability to lead and manage large teams.\n" +
-  "I have built teams from scratch and executed complete programs.\n" +
-  "I have in-depth knowledge of software development processes & best practices, incl. Agile.\n" +
-  "I possess a solid foundation in core system areas while being proficient in Big Data Analytics, Cloud & Cloud-Native architecture, DevOps, Machine Learning etc.\n" +  
+  paragraphOne: "I bring 22+ years of diverse experience in building high-performance, carrier-grade products in Networking and Telecom domains\n" +
+  "I possess a solid foundation in core system areas while being proficient in new-age technologies such as Data Engineering, Big Data Analytics, Cloud & Cloud-Native architecture, DevOps, Machine Learning etc.\n" +  
+  "I have a track record of successfully building and leading top-performing teams from the ground up, leveraging my extensive technical expertise.\n" +  
+  "I have thorough understanding of software development processes and best-practices, including Agile methodologies\n" +
   "",
   paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with exceptional problem-solving skills",
   paragraphThree: "I am currently leading the Software Services group at CommScope \n" +
-  "developing innovative products & solutions in Analytics, DevOps, Cloud & Automation areas for the OneCell 5G product.",
+  "spearheading the development of innovative products and solutions in Analytics, DevOps, Cloud, and Automation areas for OneCell 5G product",
   resume: 'https://drive.google.com/file/d/1H0a2bZUeV9DLl8iTVirjMt_St74EXTVo/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -156,9 +155,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'While I am enjoying my current work, I am on the lookout for a role where the organization’s & my own interests are better aligned. \n' +
-  'Particularly, I am seeking leadership roles that require a mix of both technical and management skills, \n' +
-  'to solve innovative and challenging problems at scale. \n' +
+  cta: 'While I am enjoying my current work, I am on the lookout for an opportunity where I can have a larger impact. \n' +
+  'Particularly, I am seeking leadership roles that demand a combination of technical and management skills to solve innovative and challenging problems at scale. \n' +
   'Have something for me?',
   btn: '',
   email: 'nikhil.utane@gmail.com',
