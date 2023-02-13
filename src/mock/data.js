@@ -146,7 +146,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'While I am enjoying my current work, I am on the lookout for an opportunity where I can have a larger impact. \n' +
+  cta: 'Although I am enjoying my current work, I am on the lookout for opportunities where I can make a greater impact. \n' +
   'Particularly, I am seeking leadership roles that demand a combination of technical and management skills to solve innovative and challenging problems at scale. \n' +
   'Have something for me?',
   btn: '',
