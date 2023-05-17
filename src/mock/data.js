@@ -24,7 +24,7 @@ export const aboutData = {
   "I have a thorough understanding of software development processes and best practices, including Agile methodologies.\n" +
   "",
   paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with exceptional problem-solving skills.",
-  paragraphThree: "I am currently leading the Software Services group at CommScope \n" +
+  paragraphThree: "I am currently leading multiple teams at CommScope \n" +
   "spearheading the development of innovative products and solutions in Analytics, DevOps, Cloud, and Automation areas for OneCell 5G product.",
   resume: 'https://drive.google.com/file/d/1H0a2bZUeV9DLl8iTVirjMt_St74EXTVo/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -147,8 +147,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Although I am enjoying my current work, I am on the lookout for opportunities where I can make a greater impact. \n' +
-  'Particularly, I am seeking leadership roles that demand a combination of technical and management skills to solve innovative and challenging problems at scale. \n' +
+  cta: 'I am seeking leadership roles that demand a combination of technical and management skills to solve innovative and challenging problems at scale. \n' +
   'Have something for me?',
   btn: '',
   email: 'nikhil.utane@gmail.com',
