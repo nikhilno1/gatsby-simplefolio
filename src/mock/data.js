@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile3.jpg',
-  paragraphOne: "I bring 22 years of diverse product development experience in building distributed, high-performance, carrier-grade products.\n" +
+  paragraphOne: "I bring 20+ years of diverse product development experience in building distributed, high-performance, carrier-grade products.\n" +
   "I possess a solid foundation in core system areas while being proficient in new-age technologies such as Big Data Analytics, Data Engineering, Cloud & Cloud-Native architecture, DevOps, Machine Learning etc.\n" +  
   "I have a track record of successfully building and leading top-performing teams from the ground up, leveraging my extensive technical expertise.\n" +  
   "I have a thorough understanding of software development processes and best practices, including Agile methodologies.\n" +
