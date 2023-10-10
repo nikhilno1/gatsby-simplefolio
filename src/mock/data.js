@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Portfolio - ',
   name: 'Nikhil Utane',
-  subtitle: 'I\'m a seasoned Technology Leader with expertise in Data Analytics, Cloud, DevOps & Machine Learning, coupled with a strong systems background',
+  subtitle: 'I\'m a seasoned Technology Leader with expertise in Data Analytics, Cloud, DevOps, and machine Learning, coupled with a strong systems background',
   cta: '',
 };
 
@@ -19,18 +19,18 @@ export const heroData = {
 export const aboutData = {
   img: 'profile3.jpg',
   paragraphOne: "I bring 20+ years of diverse product development experience in building distributed, high-performance, carrier-grade products.\n" +
-  "I possess a solid foundation in core system areas while being proficient in new-age technologies such as Big Data Analytics, Data Engineering, Cloud & Cloud-Native architecture, DevOps, Machine Learning etc.\n" +  
+  "I possess a solid foundation in core system areas while being proficient in new-age technologies such as Big Data Analytics, Data Engineering, Cloud & Cloud-Native architecture, DevOps, Machine Learning incl. Generative AI.\n" +  
   "I have a track record of successfully building and leading top-performing teams from the ground up, leveraging my extensive technical expertise.\n" +  
   "I have a thorough understanding of software development processes and best practices, including Agile methodologies.\n" +
   "",
   paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with exceptional problem-solving skills.",
-  paragraphThree: "I am currently leading multiple teams at CommScope \n" +
-  "spearheading the development of innovative products and solutions in Analytics, DevOps, Cloud, and Automation areas for OneCell 5G product.",
+  paragraphThree: "I am currently at Cradlepoint (an Ericsson company) building Private Cellular Networks solution. Previously I was at CommScope \n" +
+  "leading the development of innovative products and solutions in Analytics, DevOps, Cloud, and Automation areas for OneCell 5G product.",
   resume: 'https://drive.google.com/file/d/1H0a2bZUeV9DLl8iTVirjMt_St74EXTVo/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
-export const projectsData = [
+export const projectsData = [  
   {
     id: nanoid(),
     img: 'chronos.png',
@@ -45,7 +45,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'atlas.png',
     title: 'OneCell Analytics - Atlas (2022)',
-    info: 'OneCell devices generate a huge amount of text-based logs. A single device can generate few GBs worth of logs in a day. \n' +
+    info: 'OneCell devices generate a huge amount of text-based logs. A single device can generate a few GBs worth of logs in a day. \n' +
     'Earlier, there was no system available to store and query these logs efficiently.',
     info2: 'Atlas is a centralized log analytics solution that is powered by Elasticsearch. With pre-built dashboards and queries, Atlas has significantly increased developer productivity by streamlining the process of searching logs. The solution utilizes a robust data pipeline that leverages Kafka and Logstash, running on AWS EKS. Additionally, it also includes a homegrown framework that automates complex stateful analysis. Together, these features enable efficient log data processing and analysis, reducing the burden of manual analysis and allowing for faster issue resolution.',
     url: 'TBD',
@@ -65,7 +65,7 @@ export const projectsData = [
     img: 'themis-lab.png',
     title: 'Themis-Lab (2022)',
     info: 'Themis-Lab is a stand-alone version of Themis, which effectively manages and tracks the complete lab inventory while offering real-time utilization visibility.',
-    info2: 'It is a highly customizable solution that can be tailored to meet the specific needs. It combines the static server data with the real-time information to get accurate view of server utilization. \n' +
+    info2: 'It is a highly customizable solution that can be tailored to meet specific needs. It combines the static server data with real-time information to get accurate view of server utilization. \n' +
     'This product has saved over $300K (and continues to do so) by identifying under-utilized or unused servers.',
     url: 'TBD',
     repo: '', // if no repo, the button will not show up
@@ -87,7 +87,7 @@ export const projectsData = [
     img: 'cloud.jpg',
     title: 'Cloud & Open-Source Technology Adoption (2022)',
     info: 'I have played a key role in driving & supporting the adoption of public cloud (AWS + Azure) along with other open-source, cloud-native technologies for the OneCell 5G program. \n' +
-    'This has allowed us to reduce hardware dependencies, deliver high-quality software, increase agility & productivity, while saving on both cost and effort.',
+    'This has allowed us to reduce hardware dependencies, deliver high-quality software, and increase agility & productivity while saving on both cost and effort.',
     info2: 'I am also leading the Cloud-gNB project to run our 5G gNB solution in Azure cloud VM. \n' + 
     'This off-loads all functional testing to low-cost cloud VMs reducing the need for expensive physical servers.',
     url: '',
@@ -109,18 +109,27 @@ export const projectsData = [
     img: 'ws.png',
     title: 'Throughput Issues for 3G Femtocell (2010)',
     info: 'This one needs a special mention because of my unique ability to sift through gigabytes worth of packet captures \n' +
-    'in various forms (TCP, UDP, encapsulated, encrypyted, fragmented, on-the-wire, over-the-air), day in and day out, to identify root-cause \n' +
-    'for the multitude of critical customer-impacting throughput related issues.',
+    'in various forms (TCP, UDP, encapsulated, encrypted, fragmented, on-the-wire, over-the-air), day in and day out, to identify root-cause \n' +
+    'for the multitude of critical customer-impacting throughput-related issues.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
+    img: 'ml-chatbot.png',
+    title: 'ML Project 1 - Personal ChatBot (2023)',
+    info: 'A generative AI application to answer questions about me.\n',
+    info2: 'Developed using LangChain, Next.js, Supabase and deployed on Vercel.',
+    url: 'https://nik-bot.vercel.app/',
+    repo: 'https://github.com/nikhilno1/NikBot', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ml-1.png',
-    title: 'ML Project 1 - Tweet Generator App (2020)',
-    info: 'This was an attempt to highlight the growing polarization on twitter between left-leaning and right-leaning handles. \n' +
-    'I scraped twitter data from well-known LW & RW handles and trained a GPT-2 model to generate random tweets from a prompt. The results were remarkable.',
+    title: 'ML Project 2 - Tweet Generator App (2020)',
+    info: 'This was an attempt to highlight the growing polarization on Twitter between left-leaning and right-leaning handles. \n' +
+    'I scraped Twitter data from well-known LW & RW handles and trained a GPT-2 model to generate random tweets from a prompt. The results were remarkable.',
     info2: 'The model was trained on Google Colab and deployed on AWS.',
     url: 'https://towardsdatascience.com/complete-guide-to-build-and-deploy-a-tweet-generator-app-into-production-5006729e583c',
     repo: 'https://github.com/nikhilno1/bot-baby', // if no repo, the button will not show up
@@ -128,16 +137,16 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'ml-2.png',
-    title: 'ML Project 2 - BERT vs ULMFiT Sentiment Classifier (2019)',
+    title: 'ML Project 3 - BERT vs ULMFiT Sentiment Classifier (2019)',
     info: 'This is a sentiment analysis app that compares the two popular architectures of that time, BERT and ULMFiT.',
-    info2: 'The app is deployed on Google App Engine with flask as back-end.',
+    info2: 'The app is deployed on Google App Engine with Flask as back-end.',
     url: 'https://towardsdatascience.com/battle-of-the-heavyweights-bert-vs-ulmfit-faceoff-91a582a7c42b',
     repo: 'https://github.com/nikhilno1/nlp_projects/tree/master/deployment/imdb-google-app-engine', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'ml-3.png',
-    title: 'ML Project 3 - Healthy Food Detector (2018)',
+    title: 'ML Project 4 - Healthy Food Detector (2018)',
     info: 'This is an image recognition app that identifies from the image whether the food is healthy or junk.',
     info2: 'The model uses CNN, resnet50 to be precise and is deployed on Heroku.',
     url: ' https://healthy-or-not.herokuapp.com/',
@@ -159,7 +168,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'https://twitter.com/NikhilUtane',
+      url: 'https://twitter.com/nikhil_no_1',
     },
     {
       id: nanoid(),
