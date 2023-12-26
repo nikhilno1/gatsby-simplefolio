@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: 'Portfolio - ',
   name: 'Nikhil Utane',
-  subtitle: 'I\'m a seasoned Technology Leader with expertise in Data Analytics, Cloud, DevOps, and Machine Learning, coupled with a strong systems background',
+  subtitle: 'I am an Engineering Leader with over two decades of experience in technology, specializing in Data Analytics, AI/ML, Cloud, and DevOps',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile3.jpg',
-  paragraphOne: "I bring 20+ years of diverse product development experience in building distributed, high-performance, carrier-grade products.\n" +
-  "I possess a solid foundation in core system areas while being proficient in new-age technologies such as Big Data Analytics, Data Engineering, Cloud & Cloud-Native architecture, DevOps, Machine Learning incl. Generative AI.\n" +  
+  paragraphOne: "I bring 23 years of diverse product development experience in building high-performance, carrier-grade products for tier 1 operators and large enterprises.\n" +
+  "I possess a solid foundation in core system areas while being proficient in new-age technologies such as Big Data Analytics, Data Engineering, AI/ML (incl. Gen. AI), DevOps, Cloud and Cloud-Native architecture.\n" +  
   "I have a track record of successfully building and leading top-performing teams from the ground up, leveraging my extensive technical expertise.\n" +  
-  "I have a thorough understanding of software development processes and best practices, including Agile methodologies.\n" +
+  "I have a thorough understanding of software development processes and best practices, (incl. Agile) to deliver high-quality products.\n" +
   "",
   paragraphTwo: "I am a technophile at heart - adept at driving technological innovations with exceptional problem-solving skills.",
   paragraphThree: "I am currently at Cradlepoint (an Ericsson company) building Private Cellular Networks solution. Previously I was at CommScope \n" +
