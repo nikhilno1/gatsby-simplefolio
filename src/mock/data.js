@@ -117,8 +117,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'ml-interview-gpt.png',
+    title: 'ML Project 1 - Interview GPT (2023)',
+    info: 'A generative AI application to help prepare for behavioral interviews.\n',
+    info2: 'Developed using ChatGPT and Streamlit.',
+    url: 'https://interview-gpt-pro.streamlit.app/',
+    repo: 'https://github.com/nikhilno1/interview-gpt', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ml-chatbot.png',
-    title: 'ML Project 1 - Personal ChatBot (2023)',
+    title: 'ML Project 2 - Personal ChatBot (2023)',
     info: 'A generative AI application to answer questions about me.\n',
     info2: 'Developed using LangChain, Next.js, Supabase and deployed on Vercel.',
     url: 'https://nik-bot.vercel.app/',
@@ -127,7 +136,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'ml-1.png',
-    title: 'ML Project 2 - Tweet Generator App (2020)',
+    title: 'ML Project 3 - Tweet Generator App (2020)',
     info: 'This was an attempt to highlight the growing polarization on Twitter between left-leaning and right-leaning handles. \n' +
     'I scraped Twitter data from well-known LW & RW handles and trained a GPT-2 model to generate random tweets from a prompt. The results were remarkable.',
     info2: 'The model was trained on Google Colab and deployed on AWS.',
@@ -137,7 +146,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'ml-2.png',
-    title: 'ML Project 3 - BERT vs ULMFiT Sentiment Classifier (2019)',
+    title: 'ML Project 4 - BERT vs ULMFiT Sentiment Classifier (2019)',
     info: 'This is a sentiment analysis app that compares the two popular architectures of that time, BERT and ULMFiT.',
     info2: 'The app is deployed on Google App Engine with Flask as back-end.',
     url: 'https://towardsdatascience.com/battle-of-the-heavyweights-bert-vs-ulmfit-faceoff-91a582a7c42b',
@@ -146,7 +155,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'ml-3.png',
-    title: 'ML Project 4 - Healthy Food Detector (2018)',
+    title: 'ML Project 5 - Healthy Food Detector (2018)',
     info: 'This is an image recognition app that identifies from the image whether the food is healthy or junk.',
     info2: 'The model uses CNN, resnet50 to be precise and is deployed on Heroku.',
     url: ' https://healthy-or-not.herokuapp.com/',
