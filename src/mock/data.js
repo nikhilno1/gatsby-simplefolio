@@ -38,7 +38,7 @@ export const projectsData = [
     info: 'Operational Measurements (OM) and Key Performance Indicators (KPI) data is important for monitoring OneCell deployments in the field. \n' +
     'Historically, this was done by a legacy tool that had significant limitations and was expensive to maintain. ',
     info2: 'Despite limited resources, I envisioned and developed a cloud-native analytics solution called Chronos, designed to provide comprehensive Operational Measurements (OM) and Key Performance Indicators (KPI) data for OneCell deployments. Chronos uses InfluxDB as a time-series database and is entirely hosted on AWS, offering interactive dashboards, reporting, real-time alerting, and advanced features like AI/ML-based troubleshooting and anomaly detection. Since its implementation, Chronos has effectively reduced the day-to-day monitoring cost and effort while delivering significant direct cost-savings of approximately $500K annually, in addition to boosting productivity, improving customer satisfaction, and unlocking new revenue opportunities. It is currently running in production, supporting both 4G and 5G deployments.',
-    url: 'TBD',
+    url: 'https://closed-behavior-ab4.notion.site/Chronos-OM-KPI-analytics-9aef29d353f14d30be6ea2c90def6f85?pvs=4',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -48,7 +48,7 @@ export const projectsData = [
     info: 'OneCell devices generate a huge amount of text-based logs. A single device can generate a few GBs worth of logs in a day. \n' +
     'Earlier, there was no system available to store and query these logs efficiently.',
     info2: 'Atlas is a centralized log analytics solution that is powered by Elasticsearch. With pre-built dashboards and queries, Atlas has significantly increased developer productivity by streamlining the process of searching logs. The solution utilizes a robust data pipeline that leverages Kafka and Logstash, running on AWS EKS. Additionally, it also includes a homegrown framework that automates complex stateful analysis. Together, these features enable efficient log data processing and analysis, reducing the burden of manual analysis and allowing for faster issue resolution.',
-    url: 'TBD',
+    url: 'https://closed-behavior-ab4.notion.site/Atlas-Log-Analytics-035ffc79f45543bdba88ae2b2a9d2453?pvs=4',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -57,7 +57,7 @@ export const projectsData = [
     title: 'OneCell Analytics - Themis (2022)',
     info: 'The OneCell system is designed for high performance and low latency. However, deploying and managing the system can be complex due to its use of Kubernetes, which requires a certain level of expertise to manage effectively.',
     info2: 'To simplify real-time monitoring of OneCell deployments, I created Themis, a single pane of glass observability solution. Themis is built using open-source components, such as, Thanos, Prometheus, and Grafana, offering multi-cluster monitoring and real-time alerting capabilities. With Themis, users can access a wide range of application, system, and Kubernetes metrics, and the solution also integrates with Chronos and Atlas to provide a one-stop-shop for monitoring and recovery needs. ',
-    url: 'TBD',
+    url: 'https://closed-behavior-ab4.notion.site/Themis-Observability-255bdc50afeb42b5a27218e077d5f7fd?pvs=4',
     repo: '', // if no repo, the button will not show up
   },
   {
